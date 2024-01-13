@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="shortvut icon" href="img/favicon.png" type="">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pet Shop</title>
+</head>
+<script src="bootstrap/jquery.js"></script>
+<script src="bootstrap/popper.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<body>
+    <div class="menu">
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand text-light font-weight-bold" href="index.html">Pet Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto ml-5">
+                    <li class="nav-item active ml-5">
+                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(página
+                                atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" href="#dicas">Dicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-ligth my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
+    </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <div id="inicio">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/banner_front.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/background3_resized.jpg" alt="Segundo Slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Parceiros-->
+    <div id="parceiros">
+        <section class="container  text-center ">
+            <h1 class="pt-3 pb-3">Parceiros que fazem acontecer!</h1>
+                <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-sm ">
+                            <div class="card " style="width: 18rem;">
+                                <img class="card-img-top img-fluid" src="img/cobasi.jpg" alt="Card image cap">
+                                <p>Cobasi é um dos nossos parceiros com mais anos de experiência que segue servindo
+                                    excelência!</p>
+                                <a href="https://www.cobasi.com.br/?gad_source=1&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buMaKYy34xbuVe-qMrZrZ7VR0XsxKamneKK9cuyZ2dm4kf-Y7MUzGxgaAv44EALw_wcB"
+                                    class="btn btn-secondary bg-warning">Cobasi</a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top img-fluid" src="img/petz.jpg" alt="Card image cap">
+                                <p>Petz é mais um dos nossos parceiros com grande nome e excelência pelo mercado!
+                                </p>
+                                <a href="https://www.petz.com.br/?gad_source=1&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buOX-NIC8-O4KrCCyHMQ2TSP4NYir2wtjNwYuuOjEl8-m9lWL4DgmpwaAuCMEALw_wcB"
+                                    class="btn btn-secondary bg-warning">Petz</a>
+                            </div>
+                        </div>
+        </section>
+    </div>
+    <!-- cards -->
+    <div id="dicas">
+        <section class="container  text-center ">
+            <h1 class="pt-3 pb-3">Dicas de cuidado para os pet's</h1>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top img-fluid" src="img/card1.jpg" alt="Card imagem">
+                            <div class="card-body">
+                                <h5 class="card-title">Dicas de banho para seu cachorro</h5>
+                                <p class="card-text">Segundo especialistas, é possível dar banho no seu cãozinho
+                                    a cada 15 dias ou sempre que ele estiver sujo. A frequência pode aumentar
+                                    caso ele fique muito tempo no quintal e se suje com mais frequência </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top img-fluid" src="img/card2.jpg" alt="Card imagem">
+                            <div class="card-body">
+                                <h5 class="card-title">Dicas de cuidado para seu macaquinho</h5>
+                                <p class="card-text">Para que um macaco de estimação viva feliz e saudável, é
+                                    preciso criar um ambiente que seja o mais semelhante possível ao que ele
+                                    encontraria na natureza. O viveiro não pode ser pequeno, deve ser bem amplo,
+                                    com galhos distribuídos em todo o espaço.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top img-fluid" src="img/card3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Dicas de cuidado para seu bichano</h5>
+                                <p class="card-text">Assim que adquirir um gato o ideal é preparar os itens
+                                    essenciais assim que o felino chegar. Lembre-se de comprar comedouros,
+                                    bebedouros, caixa de areia, cama ou casinha, ração adequada e a areia
+                                    desejada.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Fim do Cards -->
+    <!-- Inicio do Rodape -->
+    <footer class="container text-dark mb-3">
+        <div id="contato">
+            <div class="row text-center pt-3 pb-3">
+                <div class="col-sm-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14631.148898316882!2d-46.58370655334654!3d-23.54015412205469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec26cfdcfed%3A0x49e7eb66fd4f1f2!2sSenac%20Tatuap%C3%A9%20-%20Cel.%20Lu%C3%ADs%20Americano!5e0!3m2!1spt-BR!2sbr!4v1700182536469!5m2!1spt-BR!2sbr"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/local.png" alt="Endereço">
+                    <p>
+                        Rua Borba Gato, 1234<br>
+                        Bairro dos pet's <br>
+                        Petlândia - SP
+                    </p>
+
+                    <img src="img/email.png" alt="E-mail">
+                    <p>petshop@email.com</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/whatsapp.png" alt="Conversa WhatsApp">
+                    <p>(11) 9123-45678</p>
+
+                    <img src="img/fone.png" alt="Telefone">
+                    <p>(11) 9123-45678</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="container bg-light text-center pt-3 pb-3">
+        <p>&#169; Somente para fins educativos.</p>
+    </div>
+
+    </div>
+</body>
+
+</html>
